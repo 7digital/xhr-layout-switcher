@@ -1,0 +1,30 @@
+{
+  "name": "xhr-layout-switcher",
+  "version": "0.0.1",
+  "description": "Connect middleware for switching layout when requests are made via AJAX",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/7digital/xhr-layout-switcher.git"
+  },
+  "keywords": [
+    "Connect",
+    "express",
+    "middleware",
+    "xhr"
+  ],
+  "author": "Raoul Millais",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/7digital/xhr-layout-switcher/issues"
+  },
+  "homepage": "https://github.com/7digital/xhr-layout-switcher",
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.15.1",
+    "i-spy": "git://github.com/7digital/i-spy.git"
+  }
+}
