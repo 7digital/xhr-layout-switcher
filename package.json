@@ -1,11 +1,13 @@
 {
   "name": "xhr-layout-switcher",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Connect middleware for switching layout when requests are made via AJAX",
-  "main": "index.js",
-  "publishConfig": { "registry": "http://npm-registry.nix.sys.7d:4873/" },
+  "main": "xhr-layout-switcher.js",
+  "publishConfig": {
+    "registry": "http://npm-registry.nix.sys.7d:4873/"
+  },
   "scripts": {
-    "test": "mocha test/*test.js"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
